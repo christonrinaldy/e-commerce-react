@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client-install": "npm install --prefix react-client",
+    "client-install": "npm install --prefix client",
     "start": "npx nodemon server/app.js",
     "server": "npx nodemon app.js",
     "client": "npm start --prefix client",
